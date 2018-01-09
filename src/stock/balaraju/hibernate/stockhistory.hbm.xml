@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="stock.balaraju.model.StockHistory" table="stockhistory">
+        <id name="id">
+            <generator class="assigned"></generator>
+        </id>
+
+        <property name="symbol"></property>
+        <property name="date"></property>
+        <property name="openPrice"></property>
+        <property name="closePrice"></property>
+        <property name="highPrice"></property>
+        <property name="lowPrice"></property>
+        <property name="volume"></property>
+
+    </class>
+
+</hibernate-mapping>

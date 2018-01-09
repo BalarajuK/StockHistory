@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Hibernate" type="hibernate">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../AgriPrj/third_party/hibernate.jar!/" />
+      <root url="file://$PROJECT_DIR$/third_party/hibernate" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/third_party/hibernate" recursive="false" />
+  </library>
+</component>
